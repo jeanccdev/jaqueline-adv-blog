@@ -1,0 +1,8 @@
+<?php include('basic.php'); include('connect.php') ?>
+
+<html>
+<body>
+	<div id="first">
+
+		<?php
+			$sql = "SELECT id, link, imagem, titulo, texto, hoje FROM posts WHERE paglink = '
